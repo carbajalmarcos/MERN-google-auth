@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "./lib",
+        "rootDir": "./"
+    }
+}

@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+
+# misc
+.DS_Store
+.vscode
+
+# frontend
+frontend/.env
+frontend/node_modules
+frontend/dist
+# backend
+backend/.env
+backend/node_modules
+backend/dist
+backend/local
+# shared
+shared/lib
+shared/node_modules

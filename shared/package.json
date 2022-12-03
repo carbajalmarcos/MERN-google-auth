@@ -1,0 +1,11 @@
+{
+  "name": "@shared/lib",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rimraf ./lib && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
