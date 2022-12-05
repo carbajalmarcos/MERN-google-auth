@@ -32,10 +32,9 @@ app.use(cookieSession({
 
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use("/", authRouter);
-app.use("/user", isAuth, userRouter);
 app.get("/isAuth", isAuth, (req: Request, res: Response) => {
+app.use("/user", isAuth, userRouter);
   res.sendStatus(200);
 });
 

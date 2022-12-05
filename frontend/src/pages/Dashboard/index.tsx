@@ -4,9 +4,9 @@ import {Table} from "../../components/Table"
 
 const  Operational = () => {
   return (
-    <div className="container w-full h-full bg-slate-300" >
+    <div className="w-full h-full" >
       <NavBar />
-      <div>Operational</div>
+
       <Table columns={[]} data={[]}/>
 
     </div>
